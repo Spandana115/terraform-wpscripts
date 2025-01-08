@@ -50,6 +50,6 @@ key_name="spandana"
 vpc_security_group_ids=["${aws_security_group.demosg.id}"]
 user_data="${file("userdata.sh")}"
 tags={
-Name="Public instance"
+Name="WEBHOOKS"
 }
 }
